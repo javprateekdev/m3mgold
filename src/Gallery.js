@@ -34,8 +34,8 @@ const Gallery = () => {
         <div style={{display:"block",margin:"%"}}>
         <div style={{height:"10vh",borderLeft:"3px solid #b5943b",letterSpacing: "1px",fontSize: "28px", marginBottom: "3%"}}>
                 <div style={{display:"block"}}>
-                <div style={{marginLeft:"10px",fontSize:"28px",fontFamily: 'Cursive',color:"green"}}>A WORLD OF LUXURY </div>
-                <div style={{marginLeft:"10px",fontSize:"32px",color:"white",fontWeight:"700"}}>Awaits You at The M3M</div>
+                <div style={{marginLeft:"50px",fontSize:"28px",fontFamily: 'Cursive',color:"white"}}>A WORLD OF LUXURY </div>
+                <div style={{marginLeft:"50px",fontSize:"32px",color:"white",fontWeight:"700"}}  className="gold">Awaits You at The M3M</div>
 
                     </div>
                     </div>

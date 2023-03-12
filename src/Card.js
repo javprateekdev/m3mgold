@@ -7,8 +7,8 @@ const Card = () => {
       <div style={{display:"block",marginLeft:"40%"}} >
             <div style={{height:"12vh",borderLeft:"3px solid #b5943b",letterSpacing: "1px",fontSize: "28px", marginBottom: ""}}>
                 <div style={{display:"block"}}>
-                <div style={{marginLeft:"10px",fontSize:"28px",fontFamily: 'Cursive',color:"green"}}>Brochure</div>
-                <div style={{marginLeft:"10px",fontSize:"32px",color:"#2f2f2f",fontWeight:"700",color:"white"}} className="gold">Download E-Brochure</div>
+                <div style={{marginLeft:"50px",fontSize:"28px",fontFamily: 'Cursive',color:"white"}}>Brochure</div>
+                <div style={{marginLeft:"50px",fontSize:"32px",color:"#2f2f2f",fontWeight:"700",color:"white"}} className="gold">Download E-Brochure</div>
 
                     </div>
 </div>
@@ -48,7 +48,7 @@ const Card = () => {
         4.5 BHK Apartments 
       </p>
     </div>
-    <button class="call_btn btn dark_btn rounded" data-toggle="modal" data-target="#modal1">
+    <button style={{background:"black",color:"white",width:'50%',marginLeft:"25%"}}>
       Request A Call
     </button>
   </div>
@@ -85,7 +85,7 @@ const Card = () => {
         4.5 BHK Apartments 
       </p>
     </div>
-    <button class="call_btn btn dark_btn rounded" data-toggle="modal" data-target="#modal1">
+    <button  style={{background:"black",color:"white",width:'50%',marginLeft:"25%"}}>
       Request A Call
     </button>
   </div>
@@ -123,7 +123,7 @@ const Card = () => {
         4.5 BHK Apartments 
       </p>
     </div>
-    <button class="call_btn btn dark_btn rounded" data-toggle="modal" data-target="#modal1">
+    <button  style={{background:"black",color:"white",width:'50%',marginLeft:"25%"}}>
       Request A Call
     </button>
   </div>

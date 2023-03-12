@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
-
+@keyframes shine {
+  to{background-position: right}
+ 
+}
 .App {
   background:linear-gradient(to bottom, #b5943b 0%, #d5b759 100%);
+  animation: shine 3s infinite;
 }
 .navbutton{
   width:200px;
@@ -324,7 +328,9 @@ p {
 
 
 .typology  { 
-  background: #e7e7e7; 
+  background: linear-gradient(180deg,
+  #fea 0%,#dc8 79%,#a95 51%,
+  #dc8 100%); 
   min-height: 55px; 
   display: flex; 
   align-items: center; 
@@ -391,7 +397,10 @@ p {
   z-index: -1; 
   transform: skewY(-10deg); 
   border-radius: 20px; 
-  background-image:linear-gradient(to bottom, #b5943b 0%, #d5b759 100%);
+  animation: shine 3s infinite;
+  background-image:linear-gradient(180deg,
+  #fea 0%,#dc8 79%,#a95 51%,
+  #dc8 100%);
 } 
 
 .content:after  { 
@@ -972,7 +981,9 @@ h1 {
     content: ''; 
     height: 100%; 
     width: 10px; 
-    background:linear-gradient(to bottom, #b5943b 0%, #d5b759 100%); 
+    background: linear-gradient(180deg,
+    #fea 0%,#dc8 49%,#a95 51%,
+    #dc8 100%); 
     right: calc(100% + 10px); 
     top: 0; 
     transform: skewX(-17deg);
@@ -988,7 +999,9 @@ h1 {
 .typo:after  { 
     position: absolute; 
     content: ''; 
-    background: linear-gradient(to bottom, #b5943b 0%, #d5b759 100%); 
+    background:  linear-gradient(180deg,
+    #fea 0%,#dc8 49%,#a95 51%,
+    #dc8 100%); 
     left: 0; 
     top: 0; 
     width: 100%; 
@@ -1077,8 +1090,10 @@ p {
     content: ''; 
     height: 3px; 
     width: 90px; 
-    background: linear-gradient(to bottom, #b5943b 0%, #d5b759 100%); 
-    right: -54%; 
+    background:  linear-gradient(180deg,
+    #fea 0%,#dc8 49%,#a95 51%,
+    #dc8 100%); 
+    right: -15%; 
     bottom: 45%;
 } 
 
@@ -1165,7 +1180,7 @@ h3 {
 }     
 
 .st_price .amount span  { 
-    color: var(--yellow); 
+    color:#dc8 ; 
     font-weight: 700;
 } 
 
@@ -1220,7 +1235,9 @@ h3 {
     font-size: 22px; 
     letter-spacing: 1px; 
     line-height: 44px; 
-    background-color:linear-gradient(to bottom, #b5943b 0%, #d5b759 100%); 
+    background-color :linear-gradient(180deg,
+    #fea 0%,#dc8 49%,#a95 51%,
+    #dc8 100%); 
     padding: 3px 30px; 
     color: #121212;
 } 
@@ -1259,7 +1276,9 @@ b {
     display: block; 
     font-size: 22px; 
     line-height: 28px; 
-    color:linear-gradient(to bottom, #b5943b 0%, #d5b759 100%);
+    color: linear-gradient(180deg,
+    #fea 0%,#dc8 49%,#a95 51%,
+    #dc8 100%);;
 } 
 
 @media (max-width: 1500px){ 
@@ -1511,11 +1530,13 @@ section .colour:nth-child(3) {
     border-radius: 20px;
     padding: 10px;
     box-sizing: border-box;
-    background: #ecf0f3ad;
+    background: linear-gradient(180deg,
+    #fea 0%,#dc8 49%,#a95 51%,
+    #dc8 100%);
     box-shadow: 1px 1px 2px #cfcbd1, -1px -1px 2px white;
     margin-left: 40%;
     margin-top: 15%;
-    border: 1px solid aliceblue;
+    
 }
 .containerbottom{
   position: relative;
@@ -1524,7 +1545,9 @@ section .colour:nth-child(3) {
   border-radius: 20px;
   padding: 10px;
   box-sizing: border-box;
-  background: #ecf0f3ad;
+  background: linear-gradient(180deg,
+  #fea 0%,#dc8 49%,#a95 51%,
+  #dc8 100%);
   box-shadow: 1px 1px 2px #cfcbd1, -1px -1px 2px white;
   margin:2%;
   border: 1px solid aliceblue;
@@ -1571,29 +1594,29 @@ label:nth-of-type(2) {
 }
 
 input::placeholder {
-  color: gray;
+  color:white;
 }
 
 input {
-  background: #ecf0f3;
+  background: rgba(0, 0, 0, 0.733);
   padding: 10px;
   padding-left: 20px;
   height: 50px;
   font-size: 14px;
   border-radius: 50px;
-  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+ color:white;
   margin:1%;
 }
 
 button {
-  color: white;
+  color: black;
   margin-top: 20px;
   background: #1DA1F2;
   height: 40px;
   border-radius: 20px;
   cursor: pointer;
   font-weight: 900;
-  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  box-shadow: 2px 2px 2px #202020, -2px -2px 2px rgb(26, 25, 25);
   transition: 0.5s;
 }
 
@@ -2658,7 +2681,8 @@ section {
     text-align: center; 
     border: 1px solid #032c2812; 
     padding: 20px;
-    background: #b5943b;
+    background: linear-gradient(180deg,
+    #fea 0%,#dc8 49%);
     border-radius: 10%;
 } 
 
@@ -2677,7 +2701,7 @@ h4 {
 
 
 .icon img  { 
-    max-width: 50px;
+    max-width: 100%;
 } 
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
@@ -2776,9 +2800,67 @@ h4 {
   background-position: left;
 
 }
-@keyframes shine {
-  to{background-position: right}
- 
+
+
+.mapback{
+  width:20%;
+  background:linear-gradient(to bottom, #b5943b 0%, #d5b759 100%);
+}
+.floorplan{
+  width:20%;
+  background:white;
+  height:90%;
+  margin:2%;
+  background: url("http://m3m-properties.net/m3m-94/images/floor-plans/floor-plan2.jpeg")  ;
+  background-size: 100% 100%;
+  border:5px solid #b5943b
+}
+.custom-btn {
+	width: 130px;
+	height: 40px;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-family: 'Lobster', cursive;
+	font-weight: 900;
+	cursor: pointer;
+	font-size: 16px;
+	outline: none;
+	border: transparent;
+	color: #fff;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.custom-btn:active {
+	transform: translate(2px);
+	-webkit-transform: translate(2px);
 }
 
-
+/* 1 */
+.btn-1 {
+	background: linear-gradient(180deg,
+					#fea 0%,#dc8 49%,#a95 51%,
+					#dc8 100%);
+  animation: shine 3s infinite;
+}
+.btn-1 :hover{
+  background:whitesmoke
+}
+/*2*/
+.btn-2 {
+	background:linear-gradient(top, #a95, #f2f2f2 25%,
+				#fff 38%, #c5c5c5 63%, #f7f7f7 87%, #a95);
+	background: -webkit-linear-gradient(top, #a95, #fea 25%,
+				#fff 38%, #dc8 63%, #fea 87%, #a95);
+}
+/*3*/
+.btn-3 {
+	background: linear-gradient(#a95, #fea);
+}
+/*4*/
+.btn-4 {
+	background-image: -webkit-repeating-linear-gradient(
+		left, rgba(255, 238, 170, 0)0%,
+		rgba(255, 238, 170, 0)3%,
+		rgba(255, 238, 170, 0)5%),
+		linear-gradient(180deg, #a95 0%,
+			#fea 47%, #dc8 53%, #fea 100%);
+}

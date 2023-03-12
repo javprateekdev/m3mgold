@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import Location from "./Location";
 import Overview from "./Overview";
 import Gallery from "./Gallery";
+import FloorPlan from "./FloorPlan";
 
 function App() {
  
@@ -21,7 +22,8 @@ function App() {
     </div>
   
     <div classname="navbutton" >
-    <div><img src="https://i.imgur.com/hw5F4AO.png" style={{width:"30px",marginLeft:"20px",marginTop:"5px"}}/></div> 
+    <div><img src="https://i.imgur.com/IS7DK6m.png" style={{width:"60px",marginLeft:"20px",marginTop:"5px"}}/></div> 
+    <div><img src="https://i.imgur.com/kgmNfit.png" style={{width:"60px",marginLeft:"20px",marginTop:"5px"}}/></div> 
      <div></div>
     </div>
   </div>
@@ -44,7 +46,7 @@ function App() {
       Starting At
     </span>
     <span class="amount">
-      <span>
+      <span className="gold">
         5.92 &nbsp;
       </span>
       Cr
@@ -152,7 +154,7 @@ function App() {
    
     <input type="password" placeholder="Enter Your Contact No." />
     
-    <button type="submit" style={{color:"black"}}>Register Now</button>
+    <button type="submit" className="btn-1">Register Now</button>
   </div>
   
 </div>
@@ -183,7 +185,7 @@ function App() {
     </div>
    <Overview/>
     <Card/>
-   
+   <FloorPlan/>
  <Contact/>
  <Location/>
  <Gallery/>
@@ -209,7 +211,7 @@ function App() {
    
     <input type="password" placeholder="Enter Your Contact No." />
     
-    <button type="submit" style={{color:"#0d589c"}}>Register Now</button>
+    <button type="submit" className="btn-1">Register Now</button>
   </div>
   
 </div>

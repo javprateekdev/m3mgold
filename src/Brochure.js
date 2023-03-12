@@ -7,22 +7,23 @@ const Brochure = () => {
   <div class="container6">
   
   <div style={{display:"flex",padding:"5%"}}>
-    <div style={{width:"50%"}} ><div className='block'><img src="http://m3m-properties.net/m3m-94/images/e-brochure.jpg"/></div></div>
+    <div style={{width:"50%"}} ><div><img src="http://m3m-properties.net/m3m-94/images/e-brochure.jpg" style={{border:"8px solid  #b5943b"}}/></div></div>
     <div style={{width:"50%"}}>
         <div style={{display:"block",margin:"15%"}}>
             <div style={{height:"12vh",borderLeft:"3px solid #b5943b",letterSpacing: "1px",fontSize: "28px", marginBottom: "15px"}}>
                 <div style={{display:"block"}}>
-                <div style={{marginLeft:"10px",fontSize:"28px",fontFamily: 'Cursive',color:"green"}}>Brochure</div>
-                <div style={{marginLeft:"10px",fontSize:"32px",color:"#2f2f2f",fontWeight:"700",color:"white"}} >Download E-Brochure</div>
+                <div style={{marginLeft:"50px",fontSize:"28px",fontFamily: 'Cursive',color:"white"}}>Brochure</div>
+                <div style={{marginLeft:"50px",fontSize:"32px",color:"#2f2f2f",fontWeight:"700",color:"white"}}  className="gold">Download E-Brochure</div>
               
                     </div>
                  
                    <div style={{fontSize:"20px",paddingTop:"50px",color:"white"}}>Wonder why some units will make more profits than others? Selection of units is crucial, let us share more.</div>
                      </div>
+           
             <div></div>
-            <div></div>
+           
         </div>
-       
+        <div style={{position:"relative",zIndex:"100",width:"30%",top:"0%",left:"30%",height:"10%",borderRadius:"20px",fontSize:"24px",padding:"10px",textAlign:"center"}} className="btn-1" >Click Here</div>
     </div>
   </div>
   </div>
